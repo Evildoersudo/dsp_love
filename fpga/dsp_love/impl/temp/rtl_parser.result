@@ -1,0 +1,620 @@
+[
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/dsp_love_top.v",
+  "InstLine" : 1,
+  "InstName" : "dsp_love_top",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/dsp_love_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "dsp_love_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/dsp_love_top.v",
+    "InstLine" : 32,
+    "InstName" : "pinpuxianshi_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/pinpuxianshi_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "pinpuxianshi_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/pinpuxianshi_top.v",
+      "InstLine" : 29,
+      "InstName" : "FFT_TOP_Inst",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/FFT_TOP.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "FFT_TOP",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/FFT_TOP.v",
+        "InstLine" : 63,
+        "InstName" : "FFT_Top_Inst",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fft/FFT_first.v",
+        "ModuleLine" : 3214,
+        "ModuleName" : "FFT_first",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fft/FFT_first.v",
+          "InstLine" : 3249,
+          "InstName" : "fft_top_inst",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fft/FFT_first.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "~fft_top.FFT_first"
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/FFT_TOP.v",
+        "InstLine" : 83,
+        "InstName" : "data_modulus",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/data_modulus.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "data_modulus",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/data_modulus.v",
+          "InstLine" : 69,
+          "InstName" : "sqrt_inst",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/sqrt.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "sqrt"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/pinpuxianshi_top.v",
+      "InstLine" : 41,
+      "InstName" : "lcd_top_inst",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "lcd_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_top.v",
+        "InstLine" : 36,
+        "InstName" : "u_rw_fifo_ctrl",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rw_fifo_ctrl.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "rw_fifo_ctrl"
+       },
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_top.v",
+        "InstLine" : 58,
+        "InstName" : "u1_async_fifo_1024x16b",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_top/fifo_top.v",
+        "ModuleLine" : 679,
+        "ModuleName" : "fifo_top",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_top/fifo_top.v",
+          "InstLine" : 704,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_top/fifo_top.v",
+          "ModuleLine" : 13,
+          "ModuleName" : "~fifo.fifo_top"
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_top.v",
+        "InstLine" : 72,
+        "InstName" : "u_lcd_rgb_top",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_rgb_top.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "lcd_rgb_top",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_rgb_top.v",
+          "InstLine" : 50,
+          "InstName" : "u_clk_div",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/clk_div.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "clk_div"
+         },
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_rgb_top.v",
+          "InstLine" : 58,
+          "InstName" : "u_lcd_display",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_display.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "lcd_display"
+         },
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_rgb_top.v",
+          "InstLine" : 74,
+          "InstName" : "u_lcd_driver",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_driver.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "lcd_driver"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/pinpuxianshi_top.v",
+      "InstLine" : 57,
+      "InstName" : "u2_async_fifo_1024x16b",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_top/fifo_top.v",
+      "ModuleLine" : 679,
+      "ModuleName" : "fifo_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_top/fifo_top.v",
+        "InstLine" : 704,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_top/fifo_top.v",
+        "ModuleLine" : 13,
+        "ModuleName" : "~fifo.fifo_top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/pinpuxianshi_top.v",
+      "InstLine" : 71,
+      "InstName" : "u_fifo_to_st",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_to_st.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fifo_to_st"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/dsp_love_top.v",
+    "InstLine" : 58,
+    "InstName" : "clk_48k_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/clk_48k.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "clk_48k"
+   },
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/dsp_love_top.v",
+    "InstLine" : 64,
+    "InstName" : "audio_lookback_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/top/audio_lookback.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "audio_lookback",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/top/audio_lookback.v",
+      "InstLine" : 20,
+      "InstName" : "Gowin_PLL",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_pll/gowin_pll.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_PLL"
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/top/audio_lookback.v",
+      "InstLine" : 26,
+      "InstName" : "WM8960_Init",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/WM8960_Init.v",
+      "ModuleLine" : 17,
+      "ModuleName" : "WM8960_Init",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/WM8960_Init.v",
+        "InstLine" : 56,
+        "InstName" : "I2C_Init_Dev",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/I2C_Init_Dev.v",
+        "ModuleLine" : 16,
+        "ModuleName" : "I2C_Init_Dev",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/I2C_Init_Dev.v",
+          "InstLine" : 108,
+          "InstName" : "wm8960_init_table",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/wm8960_init_table.v",
+          "ModuleLine" : 16,
+          "ModuleName" : "wm8960_init_table"
+         },
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/I2C_Init_Dev.v",
+          "InstLine" : 120,
+          "InstName" : "i2c_control",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/i2c_control.v",
+          "ModuleLine" : 16,
+          "ModuleName" : "i2c_control",
+          "SubInsts" : [
+           {
+            "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/i2c_control.v",
+            "InstLine" : 72,
+            "InstName" : "i2c_bit_shift",
+            "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/i2c_bit_shift.v",
+            "ModuleLine" : 16,
+            "ModuleName" : "i2c_bit_shift"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/top/audio_lookback.v",
+      "InstLine" : 102,
+      "InstName" : "i2s_rx",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/i2s/i2s_rx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "i2s_rx",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/i2s/i2s_rx.v",
+        "InstLine" : 122,
+        "InstName" : "adc_fifo",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "async_fifo",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo.v",
+          "InstLine" : 56,
+          "InstName" : "async_fifo_ctrl_inst",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo_ctrl.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "async_fifo_ctrl"
+         },
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo.v",
+          "InstLine" : 83,
+          "InstName" : "dpram_inst",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/dpram.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "dpram"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/top/audio_lookback.v",
+      "InstLine" : 117,
+      "InstName" : "i2s_tx",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/i2s/i2s_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "i2s_tx",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/i2s/i2s_tx.v",
+        "InstLine" : 113,
+        "InstName" : "dac_fifo",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "async_fifo",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo.v",
+          "InstLine" : 56,
+          "InstName" : "async_fifo_ctrl_inst",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo_ctrl.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "async_fifo_ctrl"
+         },
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo.v",
+          "InstLine" : 83,
+          "InstName" : "dpram_inst",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/dpram.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "dpram"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/dsp_love_top.v",
+    "InstLine" : 82,
+    "InstName" : "top_desk_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/top_desk_ctrl.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "top_desk_ctrl",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/top_desk_ctrl.v",
+      "InstLine" : 29,
+      "InstName" : "uart_cmd",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/uart_cmd.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "uart_cmd"
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/top_desk_ctrl.v",
+      "InstLine" : 37,
+      "InstName" : "uart_byte_rx",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/uart_byte_rx.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "uart_byte_rx"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_clkdiv/FFT_div.v",
+  "InstLine" : 10,
+  "InstName" : "FFT_div",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_clkdiv/FFT_div.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "FFT_div"
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom/fft_rom.v",
+  "InstLine" : 10,
+  "InstName" : "fft_rom",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom/fft_rom.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "fft_rom"
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom1/fft_rom1.v",
+  "InstLine" : 10,
+  "InstName" : "fft_rom1",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom1/fft_rom1.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "fft_rom1"
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rd_id.v",
+  "InstLine" : 1,
+  "InstName" : "rd_id",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rd_id.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "rd_id"
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rom_ctrl.v",
+  "InstLine" : 1,
+  "InstName" : "FFT_Rom_out",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rom_ctrl.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "FFT_Rom_out",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rom_ctrl.v",
+    "InstLine" : 22,
+    "InstName" : "u_FFT_data",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom2/fft_rom2.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "fft_rom2"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fifo_data_2_dsp.v",
+  "InstLine" : 880,
+  "InstName" : "fifo_data_2_dsp",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fifo_data_2_dsp.v",
+  "ModuleLine" : 880,
+  "ModuleName" : "fifo_data_2_dsp",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fifo_data_2_dsp.v",
+    "InstLine" : 913,
+    "InstName" : "fifo_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fifo_data_2_dsp.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "~fifo.fifo_data_2_dsp"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_top.v",
+  "InstLine" : 1,
+  "InstName" : "FIR_top",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "FIR_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_top.v",
+    "InstLine" : 33,
+    "InstName" : "FIR_firwin_generator_haimming_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_firwin_generator_haimming.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "FIR_firwin_generator_haimming",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_firwin_generator_haimming.v",
+      "InstLine" : 49,
+      "InstName" : "your_instance_name",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_win_div.v",
+      "ModuleLine" : 5960,
+      "ModuleName" : "fir_win_div",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_win_div.v",
+        "InstLine" : 5975,
+        "InstName" : "integer_division_inst",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_win_div.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~integer_division.fir_win_div"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_firwin_generator_haimming.v",
+      "InstLine" : 56,
+      "InstName" : "fir_cos",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/cos_deal.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "cos_deal",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/cos_deal.v",
+        "InstLine" : 118,
+        "InstName" : "cos_inst",
+        "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/cordic_cos.v",
+        "ModuleLine" : 1604,
+        "ModuleName" : "cordic_cos",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/cordic_cos.v",
+          "InstLine" : 1627,
+          "InstName" : "u_cordic",
+          "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/cordic_cos.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "~cordic_core.cordic_cos"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_firwin_generator_haimming.v",
+      "InstLine" : 65,
+      "InstName" : "fir_hamming_value",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/haiming_100_rom.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "haiming_100_rom"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_top.v",
+    "InstLine" : 46,
+    "InstName" : "FIR_deal_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_deal.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "FIR_deal",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_deal.v",
+      "InstLine" : 38,
+      "InstName" : "fir_data_ram",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_data.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "fir_data"
+     },
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_deal.v",
+      "InstLine" : 120,
+      "InstName" : "fir_mult_inst",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_mult.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "fir_mult"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/key_filter.v",
+  "InstLine" : 2,
+  "InstName" : "key_filter",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/key_filter.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "key_filter"
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/rd_data_fifo.v",
+  "InstLine" : 1555,
+  "InstName" : "rd_data_fifo",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/rd_data_fifo.v",
+  "ModuleLine" : 1555,
+  "ModuleName" : "rd_data_fifo",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/rd_data_fifo.v",
+    "InstLine" : 1586,
+    "InstName" : "fifo_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/rd_data_fifo.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "~fifo.rd_data_fifo"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/wr_data_fifo.v",
+  "InstLine" : 830,
+  "InstName" : "wr_data_fifo",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/wr_data_fifo.v",
+  "ModuleLine" : 830,
+  "ModuleName" : "wr_data_fifo",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/wr_data_fifo.v",
+    "InstLine" : 861,
+    "InstName" : "fifo_inst",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/wr_data_fifo.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "~fifo.wr_data_fifo"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation.v",
+  "InstLine" : 1,
+  "InstName" : "Reverberation",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Reverberation",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation.v",
+    "InstLine" : 30,
+    "InstName" : "Reverberation_Input",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation_Num.v",
+    "ModuleLine" : 915,
+    "ModuleName" : "Reverberation_Num",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation_Num.v",
+      "InstLine" : 944,
+      "InstName" : "fifo_inst",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation_Num.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "~fifo.Reverberation_Num"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation.v",
+    "InstLine" : 45,
+    "InstName" : "Reverberation_Output",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation_Num.v",
+    "ModuleLine" : 915,
+    "ModuleName" : "Reverberation_Num",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation_Num.v",
+      "InstLine" : 944,
+      "InstName" : "fifo_inst",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation_Num.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "~fifo.Reverberation_Num"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/Up_Down_Sampling.v",
+  "InstLine" : 1,
+  "InstName" : "Up_Down_Sampling",
+  "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/Up_Down_Sampling.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Up_Down_Sampling",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/Up_Down_Sampling.v",
+    "InstLine" : 189,
+    "InstName" : "fifo_input1",
+    "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/fifo_input.v",
+    "ModuleLine" : 914,
+    "ModuleName" : "fifo_input",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/fifo_input.v",
+      "InstLine" : 943,
+      "InstName" : "fifo_inst",
+      "ModuleFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/fifo_input.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "~fifo.fifo_input"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,12 @@
+[General]
+ipc_version=4
+file=FFT_div
+module=FFT_div
+target_device=gw5a25a-006
+type=clock_clkdiv
+version=1.0
+
+[Config]
+Calibration=false
+Division_Factor=5
+Language=0

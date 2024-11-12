@@ -1,0 +1,66 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25UG324ES">gw5a25a-006</Device>
+    <FileList>
+        <File path="src/FFT_TOP.v" type="file.verilog" enable="1"/>
+        <File path="src/Up_down_sampling/Up_Down_Sampling.v" type="file.verilog" enable="1"/>
+        <File path="src/Up_down_sampling/fifo_input.v" type="file.verilog" enable="1"/>
+        <File path="src/WM8960_Init/I2C_Init_Dev.v" type="file.verilog" enable="1"/>
+        <File path="src/WM8960_Init/WM8960_Init.v" type="file.verilog" enable="1"/>
+        <File path="src/WM8960_Init/i2c_bit_shift.v" type="file.verilog" enable="1"/>
+        <File path="src/WM8960_Init/i2c_control.v" type="file.verilog" enable="1"/>
+        <File path="src/WM8960_Init/wm8960_init_table.v" type="file.verilog" enable="1"/>
+        <File path="src/clk_48k.v" type="file.verilog" enable="1"/>
+        <File path="src/clk_div.v" type="file.verilog" enable="1"/>
+        <File path="src/data_modulus.v" type="file.verilog" enable="1"/>
+        <File path="src/dsp_love_top.v" type="file.verilog" enable="1"/>
+        <File path="src/fft/FFT_first.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo/async_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo/async_fifo_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo/dpram.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/FIR_deal.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/FIR_firwin_generator_haimming.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/FIR_top.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/clock_1Mhz.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/cordic_cos.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/cos_deal.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/fifo_data_2_dsp.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/fifo_in_out.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/fir_data.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/fir_mult.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/fir_win_div.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/haiming_100_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/key_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/rd_data_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_in_out/wr_data_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_to_st.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/fifo_top.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_clkdiv/FFT_div.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/fft_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom1/fft_rom1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom2/fft_rom2.v" type="file.verilog" enable="1"/>
+        <File path="src/i2s/i2s_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/i2s/i2s_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd_display.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd_rgb_top.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd_top.v" type="file.verilog" enable="1"/>
+        <File path="src/pinpuxianshi_top.v" type="file.verilog" enable="1"/>
+        <File path="src/rd_id.v" type="file.verilog" enable="1"/>
+        <File path="src/reverberation/Reverberation.v" type="file.verilog" enable="1"/>
+        <File path="src/reverberation/Reverberation_Num.v" type="file.verilog" enable="1"/>
+        <File path="src/rom_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/rw_fifo_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/sqrt.v" type="file.verilog" enable="1"/>
+        <File path="src/top/audio_lookback.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/top_desk_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/uart_byte_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/uart_cmd.v" type="file.verilog" enable="1"/>
+        <File path="src/led_flash.cst" type="file.cst" enable="1"/>
+        <File path="src/tft_ctrl.cst" type="file.cst" enable="0"/>
+    </FileList>
+</Project>

@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=fft_rom1
+module=fft_rom1
+target_device=gw5a25a-006
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=1024
+LANG=0
+MEM_FILE=E:\\fpga\x6bd4\x8d5b\x97f3\x9891\x5904\x7406\\DSP_Matlab\\sine_wave_16bit_1024depth.mi
+READ=0
+RESET_MODE=true
+WIDTH=16

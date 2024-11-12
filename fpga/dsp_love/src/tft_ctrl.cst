@@ -1,0 +1,55 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.9 Beta-3
+//Part Number: GW5A-LV25UG324ES
+//Device: GW5A-25
+//Device Version: A
+//Created Time: Wed 09 13 17:37:24 2023
+
+IO_LOC "lcd_bl" U17;
+IO_PORT "lcd_bl" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_de" U18;
+IO_PORT "lcd_de" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_clk" M14;
+IO_PORT "lcd_clk" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_vs" T17;
+IO_PORT "lcd_vs" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_hs" T18;
+IO_PORT "lcd_hs" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[15]" H12;
+IO_PORT "lcd_rgb[15]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[14]" G13;
+IO_PORT "lcd_rgb[14]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[13]" F15;
+IO_PORT "lcd_rgb[13]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[12]" F16;
+IO_PORT "lcd_rgb[12]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[11]" E18;
+IO_PORT "lcd_rgb[11]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[10]" L15;
+IO_PORT "lcd_rgb[10]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[9]" L16;
+IO_PORT "lcd_rgb[9]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[8]" L14;
+IO_PORT "lcd_rgb[8]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[7]" M13;
+IO_PORT "lcd_rgb[7]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[6]" J16;
+IO_PORT "lcd_rgb[6]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[5]" H15;
+IO_PORT "lcd_rgb[5]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[4]" N14;
+IO_PORT "lcd_rgb[4]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[3]" N15;
+IO_PORT "lcd_rgb[3]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[2]" N16;
+IO_PORT "lcd_rgb[2]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[1]" M16;
+IO_PORT "lcd_rgb[1]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "lcd_rgb[0]" M18;
+IO_PORT "lcd_rgb[0]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "rst_n" B16;
+IO_PORT "rst_n" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "clk_50m" T9;
+IO_PORT "clk_50m" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;

@@ -1,0 +1,16 @@
+[General]
+ipc_version=4
+file=fp_sqrt
+module=fp_sqrt
+target_device=gw5a25a-006
+type=fp_sqrt
+version=1.0
+
+[Config]
+Clock_Enable=false
+DisableIO=true
+LANG=0
+NaN=false
+Over_Flow=false
+Synthesis_tool=GowinSynthesis
+Zero=false

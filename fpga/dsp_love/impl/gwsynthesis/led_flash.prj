@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="UBGA324" speed="1" partNumber="GW5A-LV25UG324ES"/>
+    <FileList>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\FFT_TOP.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\I2C_Init_Dev.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\WM8960_Init.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\i2c_bit_shift.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\i2c_control.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\wm8960_init_table.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\clk_48k.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\clk_div.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\data_modulus.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fft\FFT_first.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\async_fifo.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\async_fifo_ctrl.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\dpram.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_to_st.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_top\fifo_top.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_clkdiv\FFT_div.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_pll\gowin_pll.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_prom\fft_rom.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_prom1\fft_rom1.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_prom2\fft_rom2.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_tx.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_display.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_driver.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_rgb_top.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_top.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\pinpuxianshi_top.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\rd_id.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\rom_ctrl.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\rw_fifo_ctrl.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\sqrt.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\top\audio_lookback.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\top_desk_ctrl.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\uart_byte_rx.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\uart_cmd.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\clock_1Mhz.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\cordic_cos.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\cos_deal.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fifo_data_2_dsp.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fifo_in_out.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fir_data.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\FIR_deal.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\FIR_firwin_generator_haimming.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fir_mult.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\FIR_top.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fir_win_div.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\haiming_100_rom.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\key_filter.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\rd_data_fifo.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\wr_data_fifo.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\reverberation\Reverberation.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\reverberation\Reverberation_Num.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\Up_down_sampling\fifo_input.v" type="verilog"/>
+        <File path="D:\Software\Gowin\Gowin_project\FFT_tst\src\Up_down_sampling\Up_Down_Sampling.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\Software\Gowin\Gowin_project\FFT_tst\impl\gwsynthesis\led_flash.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="dsp_love_top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

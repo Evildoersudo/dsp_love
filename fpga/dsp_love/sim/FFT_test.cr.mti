@@ -1,0 +1,64 @@
+E:/FFT_tst/sim/fft_tb.v {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/sim/fft_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module fft_tb
+
+Top level modules:
+	fft_tb
+
+} {} {}} E:/FFT_tst/src/FFT_TOP.v {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/FFT_TOP.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module FFT_TOP
+
+Top level modules:
+	FFT_TOP
+
+} {} {}} E:/FFT_tst/src/rom_ctrl.v {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/rom_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module FFT_Rom_out
+
+Top level modules:
+	FFT_Rom_out
+
+} {} {}} E:/FFT_tst/src/gowin_prom1/fft_rom1.v {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/gowin_prom1/fft_rom1.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module fft_rom1
+
+Top level modules:
+	fft_rom1
+
+} {} {}} E:/FFT_tst/src/fp_sqrt/fp_sqrt.vo {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/fp_sqrt/fp_sqrt.vo
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module fp_sqrt
+
+Top level modules:
+	fp_sqrt
+
+} {} {}} E:/FFT_tst/src/gowin_prom2/fft_rom2.v {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/gowin_prom2/fft_rom2.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module fft_rom2
+
+Top level modules:
+	fft_rom2
+
+} {} {}} E:/FFT_tst/src/gowin_clkdiv/FFT_div.v {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/gowin_clkdiv/FFT_div.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module FFT_div
+
+Top level modules:
+	FFT_div
+
+} {} {}} E:/FFT_tst/src/gowin_prom/fft_rom.v {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/gowin_prom/fft_rom.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module fft_rom
+
+Top level modules:
+	fft_rom
+
+} {} {}} E:/FFT_tst/src/fft/FFT_first.vo {1 {vlog -work gw5a -vopt -stats=none E:/FFT_tst/src/fft/FFT_first.vo
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module FFT_first
+
+Top level modules:
+	FFT_first
+
+} {} {}}

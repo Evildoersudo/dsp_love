@@ -1,0 +1,136 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\FFT_TOP.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\I2C_Init_Dev.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\WM8960_Init.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\i2c_bit_shift.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\i2c_control.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\wm8960_init_table.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\clk_48k.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\clk_div.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\data_modulus.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v'
+Undeclared symbol 'audio_clk', assumed default net type 'wire'("D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v":36)
+Undeclared symbol 'K', assumed default net type 'wire'("D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v":76)
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fft\FFT_first.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\async_fifo.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\async_fifo_ctrl.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\dpram.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_to_st.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_top\fifo_top.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_clkdiv\FFT_div.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_pll\gowin_pll.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_prom\fft_rom.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_prom1\fft_rom1.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_prom2\fft_rom2.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v'
+Undeclared symbol 'adcfifo_full', assumed default net type 'wire'("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v":129)
+WARN  (EX3801) : Parameter 'state_idle' becomes localparam in 'i2s_rx' with formal parameter declaration list("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v":16)
+WARN  (EX3801) : Parameter 'state_left_data' becomes localparam in 'i2s_rx' with formal parameter declaration list("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v":17)
+WARN  (EX3801) : Parameter 'state_right_data' becomes localparam in 'i2s_rx' with formal parameter declaration list("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v":18)
+WARN  (EX3801) : Parameter 'state_fifo_write' becomes localparam in 'i2s_rx' with formal parameter declaration list("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v":19)
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_tx.v'
+WARN  (EX3801) : Parameter 'state_idle' becomes localparam in 'i2s_tx' with formal parameter declaration list("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_tx.v":17)
+WARN  (EX3801) : Parameter 'state_tx_left_data' becomes localparam in 'i2s_tx' with formal parameter declaration list("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_tx.v":18)
+WARN  (EX3801) : Parameter 'state_tx_right_data' becomes localparam in 'i2s_tx' with formal parameter declaration list("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_tx.v":19)
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_display.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_driver.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_rgb_top.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_top.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\pinpuxianshi_top.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\rd_id.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\rom_ctrl.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\rw_fifo_ctrl.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\sqrt.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\top\audio_lookback.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\top_desk_ctrl.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\uart_byte_rx.v'
+WARN  (EX3706) : Empty port in module declaration("D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\uart_byte_rx.v":10)
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\uart_cmd.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\clock_1Mhz.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\cordic_cos.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\cos_deal.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fifo_data_2_dsp.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fifo_in_out.v'
+WARN  (EX3628) : Redeclaration of ANSI port 'beep_ctrl' is not allowed("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fifo_in_out.v":24)
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fir_data.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\FIR_deal.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\FIR_firwin_generator_haimming.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fir_mult.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\FIR_top.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\fir_win_div.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\haiming_100_rom.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\key_filter.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\rd_data_fifo.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_in_out\wr_data_fifo.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\reverberation\Reverberation.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\reverberation\Reverberation_Num.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\Up_down_sampling\fifo_input.v'
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_project\FFT_tst\src\Up_down_sampling\Up_Down_Sampling.v'
+Compiling module 'dsp_love_top'("D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v":1)
+Compiling module 'pinpuxianshi_top'("D:\Software\Gowin\Gowin_project\FFT_tst\src\pinpuxianshi_top.v":1)
+WARN  (EX3073) : Port 'idx' remains unconnected for this instance("D:\Software\Gowin\Gowin_project\FFT_tst\src\FFT_TOP.v":80)
+Compiling module 'FFT_TOP'("D:\Software\Gowin\Gowin_project\FFT_tst\src\FFT_TOP.v":1)
+Compiling module 'FFT_first'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fft\FFT_first.v":3214)
+Compiling module '**'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fft\FFT_first.v":3213)
+WARN  (EX3073) : Port 'o_vaild' remains unconnected for this instance("D:\Software\Gowin\Gowin_project\FFT_tst\src\data_modulus.v":76)
+Compiling module 'data_modulus'("D:\Software\Gowin\Gowin_project\FFT_tst\src\data_modulus.v":1)
+Compiling module 'sqrt'("D:\Software\Gowin\Gowin_project\FFT_tst\src\sqrt.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("D:\Software\Gowin\Gowin_project\FFT_tst\src\sqrt.v":114)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("D:\Software\Gowin\Gowin_project\FFT_tst\src\sqrt.v":120)
+Compiling module 'lcd_top'("D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_top.v":1)
+Compiling module 'rw_fifo_ctrl'("D:\Software\Gowin\Gowin_project\FFT_tst\src\rw_fifo_ctrl.v":1)
+Compiling module 'fifo_top'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_top\fifo_top.v":679)
+Compiling module '**'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_top\fifo_top.v":678)
+WARN  (EX3670) : Actual bit length 10 differs from formal bit length 11 for port 'Wnum'("D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_top.v":65)
+Compiling module 'lcd_rgb_top'("D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_rgb_top.v":1)
+Compiling module 'clk_div'("D:\Software\Gowin\Gowin_project\FFT_tst\src\clk_div.v":1)
+Compiling module 'lcd_display'("D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_display.v":1)
+Compiling module 'lcd_driver'("D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_driver.v":1)
+Compiling module 'fifo_to_st'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo_to_st.v":1)
+Compiling module 'clk_48k'("D:\Software\Gowin\Gowin_project\FFT_tst\src\clk_48k.v":1)
+Compiling module 'audio_lookback'("D:\Software\Gowin\Gowin_project\FFT_tst\src\top\audio_lookback.v":1)
+Compiling module 'Gowin_PLL'("D:\Software\Gowin\Gowin_project\FFT_tst\src\gowin_pll\gowin_pll.v":10)
+Compiling module 'WM8960_Init'("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\WM8960_Init.v":17)
+Compiling module 'I2C_Init_Dev'("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\I2C_Init_Dev.v":16)
+Compiling module 'wm8960_init_table'("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\wm8960_init_table.v":16)
+WARN  (EX1998) : Net 'rom[255][15]' does not have a driver("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\wm8960_init_table.v":26)
+Compiling module 'i2c_control'("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\i2c_control.v":16)
+Compiling module 'i2c_bit_shift'("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\i2c_bit_shift.v":16)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'rdreg_req'("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\I2C_Init_Dev.v":124)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'addr_mode'("D:\Software\Gowin\Gowin_project\FFT_tst\src\WM8960_Init\I2C_Init_Dev.v":126)
+Compiling module 'i2s_rx'("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_rx.v":1)
+Compiling module 'async_fifo(DATA_WIDTH=32,ADDR_WIDTH=8)'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\async_fifo.v":1)
+Compiling module 'async_fifo_ctrl(DATA_WIDTH=32,ADDR_WIDTH=8)'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\async_fifo_ctrl.v":1)
+Compiling module 'dpram(DATA_WIDTH=32,ADDR_WIDTH=8)'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\dpram.v":1)
+Extracting RAM for identifier 'ram'("D:\Software\Gowin\Gowin_project\FFT_tst\src\fifo\dpram.v":23)
+Compiling module 'i2s_tx'("D:\Software\Gowin\Gowin_project\FFT_tst\src\i2s\i2s_tx.v":1)
+WARN  (EX3670) : Actual bit length 1 differs from formal bit length 4 for port 'K'("D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v":76)
+Compiling module 'top_desk_ctrl'("D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\top_desk_ctrl.v":1)
+Compiling module 'uart_cmd'("D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\uart_cmd.v":3)
+Compiling module 'uart_byte_rx'("D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\uart_byte_rx.v":3)
+WARN  (EX3670) : Actual bit length 1 differs from formal bit length 4 for port 'K'("D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v":86)
+NOTE  (EX0101) : Current top module is "dsp_love_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "clk_div" instantiated to "u_clk_div" is swept in optimizing("D:\Software\Gowin\Gowin_project\FFT_tst\src\lcd_rgb_top.v":55)
+WARN  (NL0002) : The module "top_desk_ctrl" instantiated to "top_desk_inst" is swept in optimizing("D:\Software\Gowin\Gowin_project\FFT_tst\src\dsp_love_top.v":87)
+WARN  (NL0002) : The module "uart_byte_rx" instantiated to "uart_byte_rx" is swept in optimizing("D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\top_desk_ctrl.v":44)
+WARN  (NL0002) : The module "uart_cmd" instantiated to "uart_cmd" is swept in optimizing("D:\Software\Gowin\Gowin_project\FFT_tst\src\uart\top_desk_ctrl.v":35)
+[95%] Generate netlist file "D:\Software\Gowin\Gowin_project\FFT_tst\impl\gwsynthesis\led_flash.vg" completed
+[100%] Generate report file "D:\Software\Gowin\Gowin_project\FFT_tst\impl\gwsynthesis\led_flash_syn.rpt.html" completed
+GowinSynthesis finish

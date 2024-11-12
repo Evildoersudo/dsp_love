@@ -1,0 +1,233 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/FFT_TOP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/I2C_Init_Dev.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/WM8960_Init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/i2c_bit_shift.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/i2c_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/WM8960_Init/wm8960_init_table.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/clk_48k.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/clk_div.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/data_modulus.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/dsp_love_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fft/FFT_first.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/async_fifo_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo/dpram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_to_st.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_top/fifo_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_clkdiv/FFT_div.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom/fft_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom1/fft_rom1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/gowin_prom2/fft_rom2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/i2s/i2s_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/i2s/i2s_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_display.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_driver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_rgb_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/lcd_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/pinpuxianshi_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rd_id.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rom_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/rw_fifo_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/sqrt.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/top/audio_lookback.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/top_desk_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/uart_byte_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/uart/uart_cmd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/clock_1Mhz.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/cordic_cos.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/cos_deal.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fifo_data_2_dsp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fifo_in_out.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_data.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_deal.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_firwin_generator_haimming.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_mult.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/FIR_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/fir_win_div.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/haiming_100_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/key_filter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/rd_data_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/fifo_in_out/wr_data_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/reverberation/Reverberation_Num.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/fifo_input.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Software/Gowin/Gowin_project/FFT_tst/src/Up_down_sampling/Up_Down_Sampling.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Software/Gowin/Gowin_project/FFT_tst/impl/temp/rtl_parser.result",
+ "Top" : "dsp_love_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
